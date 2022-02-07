@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
+import NewBudget from './components/NewBudget';
 
 function App() {
-  return <p>Expenditure Control</p>;
+  return <NewBudget />;
 }
 
 export default App;

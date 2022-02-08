@@ -20,6 +20,7 @@ module.exports = {
   plugins: ['react', 'react-hooks', 'prettier'],
   rules: {
     'no-shadow': 'off',
+    'react/prop-types': 'off',
     'jsx-a11y/label-has-associated-control': [
       'error',
       {
